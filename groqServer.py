@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 
-
+api_key=""#your api goes here
 
 app = Flask(__name__)
 client = Groq(api_key=api_key,)
