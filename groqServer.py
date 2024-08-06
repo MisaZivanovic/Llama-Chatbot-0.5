@@ -2,7 +2,7 @@ from groq import Groq
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-
+api_key="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"
 
 
 app = Flask(__name__)

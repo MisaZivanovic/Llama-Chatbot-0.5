@@ -25,6 +25,7 @@
   overflow-y: auto; /* Add vertical scroll if needed */
   height: 500px; /* Set a fixed height */
   flex-direction: column;
+  font-size: 18px;
 }
 
 .App-Response pre {
