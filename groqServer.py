@@ -4,7 +4,6 @@ from flask_cors import CORS
 
 api_key="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"
 
-
 app = Flask(__name__)
 client = Groq(api_key=api_key,)
 CORS(app)
